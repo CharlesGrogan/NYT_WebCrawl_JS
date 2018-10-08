@@ -1,0 +1,9 @@
+.jumbotron {
+  font-family: "UnifrakturCook", cursive;
+  background-image: url("../images/header.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-shadow: 3px 3px white;
+  color: black;
+  padding-top: 40px;
+}
