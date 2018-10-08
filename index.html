@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-lg-8 offset-3">
+                    <h1><b>The <u>New York Times</u> Scraper</b></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-3">
+        <div class="row">
+            <!-- Logo Column -->
+            <div class="col-4">
+                <img src="https://picsum.photos/300/350/?143" alt="NTY logo">
+            </div>
+            <div class="col-8">
+                <div class="panel panel-default search-panel">
+                    <div class="panel-heading">
+                        <h4>Search Parameters</h4>
+                    </div>
+                    <div class="panel-body">
+                        <form>
+                            <b class="formLabel">Search term:</b> <br />
+                            <input class="form-control" id="searchTerm" type="text"><br>
+                            <b class="formLabel">Number of Results Retrieved (maxium: 10):</b> <br />
+                            <input class="form-control" id="resultLength" type="text"><br>
+                            <b class="formLabel">Start Year (optional):</b> <br />
+                            <input class="form-control" id="startYear" type="text"><br>
+                            <b class="formLabel">End Year (Optional):</b> <br />
+                            <input class="form-control" id="endYear" type="text"><br>
+                            <input type="submit" value="Submit" id="submitBtn" class="btn-primary">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Results Panel -->
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4>Top Articles:</h4>
+            </div>
+            <div class="panel-body">
+                <div id="articleBox">Search To Find Articles!</div>
+            </div>
+        </div>
+    </div>
+
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
