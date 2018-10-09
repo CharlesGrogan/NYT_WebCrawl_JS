@@ -24,7 +24,7 @@
     </div>
 
     <div class="container p-3">
-        <div class="row">
+        <div class="row" id="middleBox">
             <!-- Logo Column -->
             <div class="col-lg-4">
                 <img src="assets/images/nyt_logo.png" alt="NTY logo">
@@ -44,7 +44,7 @@
                             <input class="form-control" id="startYear" type="text"><br>
                             <b class="formLabel">End Year (Optional):</b> <br />
                             <input class="form-control" id="endYear" type="text"><br>
-                            <input type="submit" value="Submit" id="submitBtn" class="btn btn-lg btn-primary offset-6">
+                            <input type="submit" value="Submit" id="submitBtn" class="btn btn-lg form-control btn-primary ">
                         </form>
                     </div>
                 </div>
@@ -53,15 +53,15 @@
         </div>
 
         <!-- Results Panel -->
-        <div class="panel panel-default">
+        <div class="panel panel-default" id="articleBox">
             <div class="panel-heading">
                 <h4>Top Articles:</h4>
             </div>
             <div class="panel-body">
-                <div id="articleBox">Search To Find Articles!</div>
+                <div id="article">Search To Find Articles!</div>
             </div>
         </div>
-        <footer class="text-center">
+        <footer class="text-center offset-4">
             <p>🕷 The New York Times Web Scraper 🕷</p>
         </footer>
     </div>

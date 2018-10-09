@@ -1,4 +1,5 @@
 .jumbotron {
+  margin-top: 10px;
   font-family: "UnifrakturCook", cursive;
   background-image: url("../images/header.jpeg");
   background-size: cover;
@@ -6,4 +7,30 @@
   text-shadow: 3px 3px white;
   color: black;
   padding-top: 40px;
+}
+
+body {
+  background-image: url("../images/background.jpeg");
+  z-index: -1;
+}
+
+#middleBox {
+  border: black 5px double;
+  padding: 25px;
+  background-color: rgba(245, 245, 245, 0.877);
+}
+
+.btn {
+  padding-top: 0;
+}
+
+#articleBox {
+  border: 2px black solid;
+  padding: 25px;
+  margin: 10px;
+  background-color: rgba(245, 245, 245, 0.877);
+}
+
+footer {
+  position: absolute;
 }
